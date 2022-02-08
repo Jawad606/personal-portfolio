@@ -1,6 +1,6 @@
 
 
- Available Scripts
+git push origin main Available Scripts
 
 In the project directory, you can run:
 

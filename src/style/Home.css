@@ -1,0 +1,49 @@
+*{
+ --Heading:#FFFFFF;
+ --Text:#CFCFCF;
+ --Highlight:#18D26E
+}
+body{
+    background-color: black;
+}
+.header{
+    transition: ease-in-out 0.3s;
+    background: url('/public/assets/images/bg.jpg') top right no-repeat;
+    background-size: cover;
+ 
+}
+.heigt .row{
+    height: 100vh;
+}
+
+.header-color{
+    color: var(--Heading);
+}
+.text-color{
+    color: var(--Text);
+}
+.hlight-color{
+    color:var(--Highlight)
+}
+.underline{
+
+    color: #FFFFFF;
+}
+.header-font{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1;
+}
+.title-des{
+    font-size: 1.5rem;
+}
+.icon{
+    color:#fff;
+    font-size:28px;
+}
+
+/* .navbar-dark .navbar-nav .nav-link:hover{
+    color: #fff;
+    transition: all 0.3s ease-in-out 0s;
+    border-bottom: 2px solid #18d26e;
+} */

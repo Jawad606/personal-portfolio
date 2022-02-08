@@ -1,0 +1,16 @@
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show > .nav-link::after {
+  border-bottom: 2px solid #18d26e;
+}
+.header-title {
+  font-size: 36px;
+  font-weight:800;
+  line-height: 1;
+}
+.navbar-dark{
+  font-family: "Poppins", sans-serif;
+}
+.nav-link{
+  margin-inline: 2px;
+}
