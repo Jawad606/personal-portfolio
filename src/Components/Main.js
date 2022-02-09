@@ -16,7 +16,7 @@ function Main() {
     <div>
       <Switch>
         <Route path="/home" component={() => <Home />} />
-        <div className="header">
+        <div className="e-header">
         <Route path="/about" component={() => <About />} />
         <Route path="/resume" component={() => <Resume />} />
         <Route path="/services" component={() => <Services />} />

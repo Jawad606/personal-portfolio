@@ -1,0 +1,43 @@
+.icon-color {
+  color: #ffffff;
+}
+.fa-football {
+  background-color: #18d26e;
+  padding: 5%;
+  border-radius: 4px;
+}
+.icon-before::before {
+  position: absolute;
+  content: "";
+  left: -8px;
+  top: -8px;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 0, 0, 0.15);
+  border-radius: 5px;
+  transition: all 0.3s ease-out 0s;
+  transform: translateZ(-1px);
+}
+.box-ser {
+  text-align: center;
+  background: rgba(204, 204, 204, 0.1);
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 5px;
+}
+ .box-ser:hover > .fa-football {
+    background: #ffffff;
+    color: #18d26e;
+}
+.box-ser:hover{
+
+    background-color: #18d26e;
+}
+.box-ser h3 {
+  color: #ffffff;
+  font-weight: 600;
+  padding-block: 10px;
+}
+.box-ser p {
+  color: #fff;
+}
