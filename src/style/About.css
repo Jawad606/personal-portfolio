@@ -3,13 +3,13 @@
 }
 .aboutme {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   padding-block: 10px;
 
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #c5c4c4;
+  color: #949393;
   font-family: "Poppins", sans-serif;
 }
 .aboutme::after {
@@ -49,8 +49,9 @@
   padding-block: 10px;
 }
 .box {
-  background-color: rgba(44, 44, 44, 0.678);
+  background: rgba(255, 255, 255, 0.08);
   padding-top: 3%;
+  width: 20%;
 }
 .box span {
   color: #c5c4c4;
@@ -60,10 +61,95 @@
 .box p {
   color: #cfcece;
 }
-.emogy{
+.emogy {
   width: 50px;
   height: 50px;
   background: rgba(255, 255, 255, 0.1);
   color: #18d26e;
   border-radius: 50%;
+}
+.progress {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0;
+  height: 10px;
+}
+.progress-bar {
+  transition: width 10s ease;
+  width: 0;
+  background-color: #18d26e;
+  animation: progressbar 5s 3 forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes progressbar {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80;
+  }
+}
+.skill-body h6 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.box-interest {
+  background: rgba(255, 255, 255, 0.08);
+  width: 21%;
+}
+.box-interest h4 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+.box-interest:hover {
+  background: rgba(255, 255, 255, 0.294);
+}
+.icon-size {
+  font-size: 25px;
+}
+.test-body {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 15px 0 15px;
+  padding: 20px 20px 60px 20px;
+  border-radius: 10px;
+}
+.icon-rt {
+  color: #646464;
+  margin-inline: 10px;
+}
+.test-body p {
+  color: #fff;
+}
+.test-h img {
+  width: 25%;
+  border-radius: 50%;
+  border: 10px solid #949393;
+}
+.postion {
+  left: 30%;
+}
+.mb {
+  margin-bottom: 5.5rem !important;
+}
+.slick-slide {
+  margin-bottom: 5.5rem;
+}
+.slick-next {
+  color: #646464 !important;
+}
+.slick-dots {
+  color: #cfcece;
+}
+
+.slick-dots li button::before {
+  color: #a3a3a3;
+  font-size: 18px;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #03ad53;
 }
