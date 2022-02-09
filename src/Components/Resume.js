@@ -62,19 +62,29 @@ function RenderResume() {
               </div>
             </div>
             <div className="col-md-6 res-body">
-            <div>
+              <div>
                 <h4>Professional Experience</h4>
                 <div className="body-rs position-relative">
                   <h5>Senior graphic design specialist</h5>
                   <h6>2017-2032</h6>
-                  <p>
-                  Experion, New York, NY
-                  </p>
+                  <p>Experion, New York, NY</p>
                   <ul>
-                    <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                    <li>
+                      Lead in the design, development, and implementation of the
+                      graphic, layout, and production communication materials
+                    </li>
+                    <li>
+                      Delegate tasks to the 7 members of the design team and
+                      provide counsel on all aspects of the project.{" "}
+                    </li>
+                    <li>
+                      Supervise the assessment of all graphic materials in order
+                      to ensure quality and accuracy of the design
+                    </li>
+                    <li>
+                      Supervise the assessment of all graphic materials in order
+                      to ensure quality and accuracy of the design
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -83,14 +93,24 @@ function RenderResume() {
                 <div className="body-rs position-relative">
                   <h5>Graphic design specialist</h5>
                   <h6>2017-2032</h6>
-                  <p>
-                  Stepping Stone Advertising, New York, NY
-                  </p>
+                  <p>Stepping Stone Advertising, New York, NY</p>
                   <ul>
-                  <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                    <li>
+                      Lead in the design, development, and implementation of the
+                      graphic, layout, and production communication materials
+                    </li>
+                    <li>
+                      Delegate tasks to the 7 members of the design team and
+                      provide counsel on all aspects of the project.{" "}
+                    </li>
+                    <li>
+                      Supervise the assessment of all graphic materials in order
+                      to ensure quality and accuracy of the design
+                    </li>
+                    <li>
+                      Supervise the assessment of all graphic materials in order
+                      to ensure quality and accuracy of the design
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -106,10 +126,9 @@ function Resume() {
     <>
       <NavBar />
       <div className="py-5 px-4  ">
-      <div className="about">
-      <RenderResume />
-      </div>
-      
+        <div className="about">
+          <RenderResume />
+        </div>
       </div>
     </>
   );
