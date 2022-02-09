@@ -220,6 +220,19 @@ function RenderSkill() {
                 ></div>
               </div>
             </div>
+            <div className="my-4">
+              <h6>React Js</h6>
+              <div className="progress">
+                <div
+                  class="progress-bar "
+                  role="progressbar"
+                  style={{ width: "70%" }}
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="col-md-6">
@@ -258,6 +271,20 @@ function RenderSkill() {
                   class="progress-bar "
                   role="progressbar"
                   style={{ width: "80%" }}
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div className="my-4">
+              <div></div>
+              <h6>Problem Solving</h6>
+              <div className="progress">
+                <div
+                  class="progress-bar "
+                  role="progressbar"
+                  style={{ width: "90%" }}
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"

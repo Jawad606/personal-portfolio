@@ -1,0 +1,49 @@
+.res-body h4 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 800;
+  padding-top: 15px;
+  padding-left: 5%;
+  padding-bottom: 10px;
+
+}
+.body-rs{
+    border-left: 2px solid rgb(134, 134, 134);
+    padding-left: 30px;
+}
+.body-rs::before{
+    content: "";
+    display: inline-block;
+    color: #18D26E;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px solid #18D26E;
+    position: absolute;
+    top: 0;
+    left: -14px;
+    background: #18D26E;
+}
+.body-rs h5{
+    color: #18D26E;
+    font-size: 20px;
+    font-weight: 700;
+}
+.body-rs p{
+    color: white;
+}
+.body-rs ul li{
+    color: white;
+    font-size: 16px;
+    padding-block: 4px;
+}
+.body-rs h6{
+    background-color: rgb(41, 41, 41);
+    width: 17%;
+    height: 4vh;
+    padding: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
