@@ -14,3 +14,7 @@
 .nav-link{
   margin-inline: 2px;
 }
+.width-nav{
+  width: 100%;
+ padding-top: 10px;
+}

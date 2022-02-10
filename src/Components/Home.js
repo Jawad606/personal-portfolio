@@ -8,7 +8,7 @@ function Home() {
 
 
   return (
-    <div className="container-fluid header ">
+    <div className="container-fluid e-header ">
       <div className="container heigt">
         <div className="row d-flex align-items-center">
           <div className="col-md-12 ">

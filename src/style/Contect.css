@@ -1,0 +1,61 @@
+.con-md-6 >.box-con {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 20px 30px;
+    width: 99%;
+}
+
+.box-con {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 20px 30px;
+  }
+.icon-con {
+  color: #18d26e;
+  background-color: rgb(97, 97, 97);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.box-con h4 {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+}
+.box-con p {
+  color: white;
+}
+.form-control {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 0;
+  transition: 0.3s;
+  color: #fff;
+  margin: 8px;
+}
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.08);
+  outline: none;
+  box-shadow: none;
+  color: #fff;
+}
+.form {
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.08);
+}
+.button-form {
+  background: #18d26e;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+.icon-social {
+    font-size: 22px;
+color: #fff;
+}
+.icon-s:hover{
+    color: #18d26e;
+}

@@ -123,14 +123,14 @@ function RenderResume() {
 }
 function Resume() {
   return (
-    <>
+    <div  className="e-header">
       <NavBar />
       <div className="py-5 px-4  ">
         <div className="about">
           <RenderResume />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

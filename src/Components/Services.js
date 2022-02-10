@@ -103,14 +103,14 @@ function RenderService() {
 }
 function Services() {
   return (
-    <>
+    <div className="e-header">
       <NavBar />
       <div className="py-5 px-4">
         <div className="about">
           <RenderService />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

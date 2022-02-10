@@ -106,3 +106,13 @@
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
+button{
+  background-color: transparent;
+  border: none;
+}
+.image-model{
+  width: 100%;
+}
+.modal-dialog {
+  max-width: 690px;
+}

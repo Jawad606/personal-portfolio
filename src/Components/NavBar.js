@@ -16,7 +16,7 @@ function NavBar(props) {
   let width = "";
   if ("home" !== props.home) {
     name = "Emily Jones";
-    flex = "d-flex justify-content-end";
+    flex = "d-flex justify-md-content-end width-nav";
     width = "container";
   }
   const [isOpen, setisOpen] = useState(false);
@@ -30,11 +30,11 @@ function NavBar(props) {
     <div className={width}>
       <Navbar  dark bg-dark="true" expand="md">
         <NavbarToggler className="button-toggle" onClick={toggle} />
-        <NavbarBrand className="mr-auto header-title" href="/">
+        <NavbarBrand className="mr-md-auto header-title" href="/">
           {name}
         </NavbarBrand>
-        <Collapse className={flex} isOpen={isOpen} navbar>
-          <Nav className="ml-auto " navbar>
+        <Collapse isOpen={isOpen} navbar>
+         <div className={flex}> <Nav  navbar>
             <NavItem>
               <NavLink className="nav-link" to="/home">
                 Home
@@ -65,7 +65,7 @@ function NavBar(props) {
                 Contect
               </NavLink>
             </NavItem>
-          </Nav>
+          </Nav></div>
         </Collapse>
       </Navbar>
     </div>

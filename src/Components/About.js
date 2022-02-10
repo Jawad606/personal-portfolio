@@ -495,7 +495,7 @@ function RenderTest() {
 }
 function About() {
   return (
-    <div className="">
+    <div  className="e-header">
       <NavBar />
       <div className="">
         <div className="py-5 px-4 ">
