@@ -328,17 +328,17 @@ function Renderinterest() {
     { id: 12, color: "#29cc61", title: "lorem", icon: faFingerprint },
   ];
   const colors = color.map((post) => (
-    <div key={post.id} className="col-md-3 box-interest p-3 m-2">
+    <div key={post.id} className="col-md-3 box-interest  m-2">
       <div className="row d-flex align-items-center">
-        <div className="col-md-4">
+        <div className="col-md-4 d-flex justify-content-center">
           <FontAwesomeIcon
             style={{ color: post.color }}
             className="icon-re icon-size"
             icon={post.icon}
           />
         </div>
-        <div className="col-md-8 p-0">
-          <h4>{post.title}</h4>
+        <div className="col-md-8 p-0 m-0 d-flex align-items-center">
+          <h4 className="p-0 m-0">{post.title}</h4>
         </div>
       </div>
     </div>

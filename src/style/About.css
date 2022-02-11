@@ -106,11 +106,12 @@
 .box-interest {
   background: rgba(255, 255, 255, 0.08);
   width: 21%;
+  padding: 1.3rem;
 }
 .box-interest h4 {
   color: #fff;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1rem;
 }
 .box-interest:hover {
   background: rgba(255, 255, 255, 0.294);
