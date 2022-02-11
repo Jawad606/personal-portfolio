@@ -1,5 +1,10 @@
 .about {
   background: rgba(0, 0, 0, 0.9);
+  animation: mover 0.5s ease-in forwards   ;
+}
+@keyframes mover {
+  0% { transform: translateY(20px); opacity: 0;}
+  100% { transform: translateY(0); opacity: 1;}
 }
 .aboutme {
   font-size: 14px;
@@ -50,9 +55,11 @@
 }
 .box {
   background: rgba(255, 255, 255, 0.08);
-  padding-top: 3%;
-  width: 20%;
+  padding-top: 5%;
+  width: 100vw;
+
 }
+
 .box span {
   color: #c5c4c4;
   font-size: 3rem;

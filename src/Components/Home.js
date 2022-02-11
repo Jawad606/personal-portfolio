@@ -9,7 +9,7 @@ function Home() {
 
   return (
     <div className="container-fluid e-header ">
-      <div className="container heigt">
+      <div className="container heigt animation">
         <div className="row d-flex align-items-center">
           <div className="col-md-12 ">
             <div className="Header-Tiltle ">

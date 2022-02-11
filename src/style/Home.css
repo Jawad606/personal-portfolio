@@ -42,6 +42,14 @@ body{
     color:#fff;
     font-size:28px;
 }
+.animation {
+   
+    animation: mover 0.5s ease-in forwards   ;
+  }
+  @keyframes mover {
+    0% { transform: translateY(20px); opacity: 0;}
+    100% { transform: translateY(0); opacity: 1;}
+  }
 
 /* .navbar-dark .navbar-nav .nav-link:hover{
     color: #fff;

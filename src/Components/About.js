@@ -98,75 +98,90 @@ function Rendercounter() {
   return (
     <div className="container p-4">
       <div className="row justify-content-center ">
-        <div className="col-lg-3 col-md-3 box  d-flex justify-content-center position-relative mx-2">
-          <div className=" d-flex justify-content-center align-items-center emogy position-absolute top-0 start-50 translate-middle">
-            <FontAwesomeIcon className="icon-re" icon={faSmileBeam} size="2x" />
-          </div>
-          <div className="row d-flex justify-content-center ">
-            <div className="col-md-12 d-flex justify-content-center">
-              <h3>
-                <CountUp end={50} duration={5}>
-                  0
-                </CountUp>
-              </h3>
+        <div className="col-md-3 col-6  d-flex justify-content-center position-relative  my-3">
+          <div className="box">
+            <div className=" d-flex justify-content-center align-items-center emogy position-absolute top-0 start-50 translate-middle">
+              <FontAwesomeIcon
+                className="icon-re"
+                icon={faSmileBeam}
+                size="2x"
+              />
             </div>
-            <div className="col-md-12 d-flex justify-content-center">
-              <p>Happy Client</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-3 box  d-flex justify-content-center position-relative mx-2">
-          <div className=" d-flex justify-content-center align-items-center emogy position-absolute top-0 start-50 translate-middle">
-            <FontAwesomeIcon
-              className="icon-re"
-              icon={faBookJournalWhills}
-              size="2x"
-            />
-          </div>
-          <div className="row d-flex justify-content-center ">
-            <div className="col-md-12 d-flex justify-content-center">
-              <h3>
-                <CountUp end={15} duration={5}>
-                  0
-                </CountUp>
-              </h3>
-            </div>
-            <div className="col-md-12 d-flex justify-content-center">
-              <p>Project</p>
+            <div className="row d-flex justify-content-center py-3">
+              <div className="col-md-12 d-flex justify-content-center">
+                <h3>
+                  <CountUp end={50} duration={5}>
+                    0
+                  </CountUp>
+                </h3>
+              </div>
+              <div className="col-md-12 d-flex justify-content-center">
+                <p>Happy Client</p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="col-md-3 box  d-flex justify-content-center position-relative  mx-2">
-          <div className=" d-flex justify-content-center align-items-center emogy position-absolute top-0 start-50 translate-middle">
-            <FontAwesomeIcon className="icon-re" icon={faHeadset} size="2x" />
-          </div>
-          <div className="row d-flex justify-content-center ">
-            <div className="col-md-12 d-flex justify-content-center">
-              <h3>
-                <CountUp end={500} duration={5}>
-                  0
-                </CountUp>
-              </h3>
+        <div className="col-md-3 col-6  d-flex justify-content-center position-relative  my-3">
+          <div className="box">
+            {" "}
+            <div className=" d-flex justify-content-center align-items-center emogy position-absolute top-0 start-50 translate-middle">
+              <FontAwesomeIcon
+                className="icon-re"
+                icon={faBookJournalWhills}
+                size="2x"
+              />
             </div>
-            <div className="col-md-12 d-flex justify-content-center">
-              <p>Hours Support</p>
+            <div className="row d-flex justify-content-center py-3">
+              <div className="col-md-12 d-flex justify-content-center">
+                <h3>
+                  <CountUp end={15} duration={5}>
+                    0
+                  </CountUp>
+                </h3>
+              </div>
+              <div className="col-md-12 d-flex justify-content-center">
+                <p>Project</p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="col-md-3 box  d-flex justify-content-center position-relative  mx-2">
-          <div className=" d-flex justify-content-center align-items-center emogy position-absolute top-0 start-50 translate-middle">
-            <FontAwesomeIcon className="icon-re" icon={faAward} size="2x" />
-          </div>
-          <div className="row d-flex justify-content-center ">
-            <div className="col-md-12 d-flex justify-content-center">
-              <h3>
-                <CountUp end={10} duration={5}>
-                  0
-                </CountUp>
-              </h3>
+        <div className="col-md-3 col-6  d-flex justify-content-center position-relative   my-3">
+          <div className="box">
+            {" "}
+            <div className=" d-flex justify-content-center align-items-center emogy position-absolute top-0 start-50 translate-middle">
+              <FontAwesomeIcon className="icon-re" icon={faHeadset} size="2x" />
             </div>
-            <div className="col-md-12 d-flex justify-content-center">
-              <p>Happy Client</p>
+            <div className="row d-flex justify-content-center py-3">
+              <div className="col-md-12 d-flex justify-content-center">
+                <h3>
+                  <CountUp end={500} duration={5}>
+                    0
+                  </CountUp>
+                </h3>
+              </div>
+              <div className="col-md-12 d-flex justify-content-center">
+                <p>Hours Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3 col-6  d-flex justify-content-center position-relative   my-3">
+          <div className="box">
+            {" "}
+            <div className=" d-flex justify-content-center align-items-center emogy position-absolute top-0 start-50 translate-middle">
+              <FontAwesomeIcon className="icon-re" icon={faAward} size="2x" />
+            </div>
+            <div className="row d-flex justify-content-center py-3">
+              <div className="col-md-12 d-flex justify-content-center">
+                <h3>
+                  <CountUp end={10} duration={5}>
+                    0
+                  </CountUp>
+                </h3>
+              </div>
+              <div className="col-md-12 d-flex justify-content-center">
+                <p>Happy Client</p>
+              </div>
             </div>
           </div>
         </div>
@@ -185,7 +200,7 @@ function RenderSkill() {
               <h6>html</h6>
               <div className="progress">
                 <div
-                  class="progress-bar "
+                  className="progress-bar "
                   role="progressbar"
                   style={{ width: "100%" }}
                   aria-valuenow="25"
@@ -198,7 +213,7 @@ function RenderSkill() {
               <h6>css</h6>
               <div className="progress">
                 <div
-                  class="progress-bar "
+                  className="progress-bar "
                   role="progressbar"
                   style={{ width: "70%" }}
                   aria-valuenow="25"
@@ -211,7 +226,7 @@ function RenderSkill() {
               <h6>JavaScript</h6>
               <div className="progress">
                 <div
-                  class="progress-bar "
+                  className="progress-bar "
                   role="progressbar"
                   style={{ width: "60%" }}
                   aria-valuenow="25"
@@ -224,7 +239,7 @@ function RenderSkill() {
               <h6>React Js</h6>
               <div className="progress">
                 <div
-                  class="progress-bar "
+                  className="progress-bar "
                   role="progressbar"
                   style={{ width: "70%" }}
                   aria-valuenow="25"
@@ -254,7 +269,7 @@ function RenderSkill() {
               <h6>PhP</h6>
               <div className="progress">
                 <div
-                  class="progress-bar "
+                  className="progress-bar "
                   role="progressbar"
                   style={{ width: "40%" }}
                   aria-valuenow="25"
@@ -268,7 +283,7 @@ function RenderSkill() {
               <h6>photoshp</h6>
               <div className="progress">
                 <div
-                  class="progress-bar "
+                  className="progress-bar "
                   role="progressbar"
                   style={{ width: "80%" }}
                   aria-valuenow="25"
@@ -282,7 +297,7 @@ function RenderSkill() {
               <h6>Problem Solving</h6>
               <div className="progress">
                 <div
-                  class="progress-bar "
+                  className="progress-bar "
                   role="progressbar"
                   style={{ width: "90%" }}
                   aria-valuenow="25"
@@ -313,8 +328,8 @@ function Renderinterest() {
     { id: 12, color: "#29cc61", title: "lorem", icon: faFingerprint },
   ];
   const colors = color.map((post) => (
-    <div className="col-md-3 box-interest p-3 m-2">
-      <div className="row d-flex align-items-center" key={post.id}>
+    <div key={post.id} className="col-md-3 box-interest p-3 m-2">
+      <div className="row d-flex align-items-center">
         <div className="col-md-4">
           <FontAwesomeIcon
             style={{ color: post.color }}
@@ -328,7 +343,6 @@ function Renderinterest() {
       </div>
     </div>
   ));
-  console.log(colors);
   return (
     <div className="container p-4">
       <div className="row">
@@ -359,7 +373,7 @@ function RenderTest() {
           <Slider {...settings}>
             <div>
               <div className="test-body test-h position-relative">
-                <div class="postion position-absolute top-100 translate-middle">
+                <div className="postion position-absolute top-100 translate-middle">
                   <img
                     src="assets/images/testimonials/testimonials-1.jpg"
                     alt="t1"
@@ -385,7 +399,7 @@ function RenderTest() {
             </div>
             <div>
               <div className="test-body test-h position-relative">
-                <div class="postion position-absolute top-100 translate-middle">
+                <div className="postion position-absolute top-100 translate-middle">
                   <img
                     src="assets/images/testimonials/testimonials-2.jpg"
                     alt="t1"
@@ -411,7 +425,7 @@ function RenderTest() {
             </div>
             <div>
               <div className="test-body test-h position-relative">
-                <div class="postion position-absolute top-100 translate-middle">
+                <div className="postion position-absolute top-100 translate-middle">
                   <img
                     src="assets/images/testimonials/testimonials-3.jpg"
                     alt="t1"
@@ -437,7 +451,7 @@ function RenderTest() {
             </div>
             <div>
               <div className="test-body test-h position-relative">
-                <div class="postion position-absolute top-100 translate-middle">
+                <div className="postion position-absolute top-100 translate-middle">
                   <img
                     src="assets/images/testimonials/testimonials-4.jpg"
                     alt="t1"
@@ -463,7 +477,7 @@ function RenderTest() {
             </div>
             <div>
               <div className="test-body test-h position-relative">
-                <div class="postion position-absolute top-100 translate-middle">
+                <div className="postion position-absolute top-100 translate-middle">
                   <img
                     src="assets/images/testimonials/testimonials-5.jpg"
                     alt="t1"
@@ -495,7 +509,7 @@ function RenderTest() {
 }
 function About() {
   return (
-    <div  className="e-header">
+    <div className="e-header">
       <NavBar />
       <div className="">
         <div className="py-5 px-4 ">
