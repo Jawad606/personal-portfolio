@@ -18,7 +18,6 @@ import {
   faGraduationCap,
   faBaseball,
   faFootball,
-  faTowerBroadcast,
   faFingerprint,
   faQuoteLeft,
   faQuoteRight,

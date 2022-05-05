@@ -17,7 +17,7 @@ function Main() {
     <TransitionGroup>
       <CSSTransition key={location.pathname} classNames="my-node" timeout={300}>
         <Switch location={location}>
-          <Route path="/" component={() => <Home />} />
+          <Route exact  path="/" component={() => <Home />} />
           <Route path="/home" component={() => <Home />} />
           <Route path="/about" component={() => <About />} />
           <Route path="/resume" component={() => <Resume />} />

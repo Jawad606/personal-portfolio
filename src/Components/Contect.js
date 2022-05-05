@@ -13,7 +13,6 @@ import {
   faGithub,
   faInstagram,
   faLinkedin,
-  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import "font-awesome/css/font-awesome.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
