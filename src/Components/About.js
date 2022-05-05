@@ -14,13 +14,16 @@ import {
   faCalendar,
   faPaintBrush,
   faDatabase,
+  faUserGroup,
   faGraduationCap,
-  faFileLines,
-  faProjectDiagram,
+  faBaseball,
+  faFootball,
   faTowerBroadcast,
   faFingerprint,
   faQuoteLeft,
   faQuoteRight,
+  faGamepad,
+  faBus
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import CountUp from "react-countup";
@@ -33,13 +36,13 @@ function RenderaboutMe() {
           <h1 className="des">learn more about me</h1>
           <div className="row">
             <div className="col-md-5">
-              <img src="assets/images/me.jpg" alt="me" width="100%" />
+              <img src="assets\images\me.png" alt="me" width="100%" />
             </div>
             <div className="col-md-7 head">
-              <h2>UI/UX & Graphic Designer</h2>
+              <h2>Software Engineer & MERN Developer</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+                I am passionate about developing new technology. I used new technlogy to meet the 
+                advance requirement. I'm focused and hard working. {" "}
               </p>
               <div className="row">
                 <div className="col-md-6">
@@ -266,12 +269,12 @@ function RenderSkill() {
               </div>
             </div>
             <div className="my-4">
-              <h6>PhP</h6>
+              <h6>Node JS</h6>
               <div className="progress">
                 <div
                   className="progress-bar "
                   role="progressbar"
-                  style={{ width: "40%" }}
+                  style={{ width: "80%" }}
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
@@ -280,7 +283,7 @@ function RenderSkill() {
             </div>
             <div className="my-4">
               <div></div>
-              <h6>photoshp</h6>
+              <h6>Communication Skill</h6>
               <div className="progress">
                 <div
                   className="progress-bar "
@@ -314,18 +317,18 @@ function RenderSkill() {
 }
 function Renderinterest() {
   const color = [
-    { id: 1, color: "#ffbb2c", title: "lorem", icon: faStore },
-    { id: 2, color: "#5578ff", title: "lorem", icon: faBarChart },
-    { id: 3, color: "#e80368", title: "lorem", icon: faCalendar },
-    { id: 4, color: "#e361ff", title: "lorem", icon: faPaintBrush },
-    { id: 5, color: "#47aeff", title: "lorem", icon: faDatabase },
-    { id: 6, color: "#ffa76e", title: "lorem", icon: faGraduationCap },
-    { id: 7, color: "#11dbcf", title: "lorem", icon: faFileLines },
-    { id: 8, color: "#4233ff", title: "lorem", icon: faProjectDiagram },
-    { id: 9, color: "#b2904f", title: "lorem", icon: faFingerprint },
-    { id: 10, color: "#b20969", title: "lorem", icon: faFingerprint },
-    { id: 11, color: "#ff5828", title: "lorem", icon: faTowerBroadcast },
-    { id: 12, color: "#29cc61", title: "lorem", icon: faFingerprint },
+    { id: 1, color: "#ffbb2c", title: "Coding", icon: faStore },
+    { id: 2, color: "#5578ff", title: "Music", icon: faBarChart },
+    { id: 3, color: "#e80368", title: "Reading", icon: faCalendar },
+    { id: 4, color: "#e361ff", title: "Searching", icon: faPaintBrush },
+    { id: 5, color: "#47aeff", title: "Photography", icon: faDatabase },
+    { id: 6, color: "#ffa76e", title: "Writing", icon: faGraduationCap },
+    { id: 7, color: "#11dbcf", title: "Cricket", icon: faBaseball },
+    { id: 8, color: "#4233ff", title: "FootBall", icon: faFootball },
+    { id: 9, color: "#b2904f", title: "Public speaking", icon: faUserGroup },
+    { id: 10, color: "#b20969", title: "Gaming", icon: faGamepad },
+    { id: 11, color: "#ff5828", title: "Traveling", icon: faBus },
+    { id: 12, color: "#29cc61", title: "Video Editing", icon: faFingerprint },
   ];
   const colors = color.map((post) => (
     <div key={post.id} className="col-md-3 box-interest  m-2">
@@ -344,6 +347,7 @@ function Renderinterest() {
     </div>
   ));
   return (
+  
     <div className="container p-4">
       <div className="row">
         <h6 className="aboutme">interests</h6>
@@ -385,10 +389,9 @@ function RenderTest() {
                     size="2x"
                     icon={faQuoteLeft}
                   />
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-                  veniam tempor noster veniam enim culpa labore duis sunt culpa
-                  nulla illum cillum fugiat legam esse veniam culpa fore nisi
-                  cillum quid.
+             You have been absolutely wonderful for Kinship Center,
+              and I can't thank you enough for all your tremendous skills,
+               support and patience .
                   <FontAwesomeIcon
                     className="icon-rt"
                     size="2x"
@@ -411,10 +414,7 @@ function RenderTest() {
                     size="2x"
                     icon={faQuoteLeft}
                   />
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-                  veniam tempor noster veniam enim culpa labore duis sunt culpa
-                  nulla illum cillum fugiat legam esse veniam culpa fore nisi
-                  cillum quid.
+                  Communications is attentive, personable, and professional. Will and his team provide great support for my company's needs.
                   <FontAwesomeIcon
                     className="icon-rt"
                     size="2x"
@@ -437,10 +437,9 @@ function RenderTest() {
                     size="2x"
                     icon={faQuoteLeft}
                   />
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-                  veniam tempor noster veniam enim culpa labore duis sunt culpa
-                  nulla illum cillum fugiat legam esse veniam culpa fore nisi
-                  cillum quid.
+                  Always available to answer any questions.
+                   Very knowledgeable about the services they
+                    provide. Would recommend to anyone!
                   <FontAwesomeIcon
                     className="icon-rt"
                     size="2x"
@@ -463,10 +462,7 @@ function RenderTest() {
                     size="2x"
                     icon={faQuoteLeft}
                   />
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-                  veniam tempor noster veniam enim culpa labore duis sunt culpa
-                  nulla illum cillum fugiat legam esse veniam culpa fore nisi
-                  cillum quid.
+                  It is a pleasure working with Will. He is extremely knowledgeable, business savvy, and positive. His approach to challenges and opportunities is innovative
                   <FontAwesomeIcon
                     className="icon-rt"
                     size="2x"
@@ -489,10 +485,7 @@ function RenderTest() {
                     size="2x"
                     icon={faQuoteLeft}
                   />
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-                  veniam tempor noster veniam enim culpa labore duis sunt culpa
-                  nulla illum cillum fugiat legam esse veniam culpa fore nisi
-                  cillum quid.
+                 Great results. Enjoyable to work with, and most importantly, enabled us to have the presence on the web we needed to conduct business in today's market.
                   <FontAwesomeIcon
                     className="icon-rt"
                     size="2x"

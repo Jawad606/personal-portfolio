@@ -13,11 +13,10 @@ function Home() {
         <div className="row d-flex align-items-center">
           <div className="col-md-12 ">
             <div className="Header-Tiltle ">
-              <h1 className="header-font header-color">Emily Jones</h1>
+              <h1 className="header-font header-color">Muhammad Jawad Hassan</h1>
               <p className="text-color title-des">
                 I'm a passionate{" "}
-                <span className="underline">graphic designer</span> from New
-                York
+                <span className="underline">Software Engineer</span> from Pakistan
               </p>
             </div>
             <NavBar home='home'  />

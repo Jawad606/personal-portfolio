@@ -15,15 +15,15 @@ function Main() {
   let location = useLocation();
   return (
     <TransitionGroup>
-      <CSSTransition  key={location.pathname} classNames="my-node" timeout={300}>
+      <CSSTransition key={location.pathname} classNames="my-node" timeout={300}>
         <Switch location={location}>
+          <Route path="/" component={() => <Home />} />
           <Route path="/home" component={() => <Home />} />
           <Route path="/about" component={() => <About />} />
           <Route path="/resume" component={() => <Resume />} />
           <Route path="/services" component={() => <Services />} />
           <Route path="/profolio" component={() => <Portfolio />} />
           <Route path="/contect" component={() => <Contect />} />
-
           <Redirect to="/home" />
         </Switch>
       </CSSTransition>

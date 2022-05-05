@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+body{
+  scroll-behavior: smooth;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -57,4 +61,7 @@
   opacity: 0.01;
   transform: translateX(100%);
   transition: all 300ms ease-out;
+}
+.underline{ 
+  border-bottom: 1px solid #18d26e;
 }

@@ -18,7 +18,6 @@ const Gallery = () => {
   const toggle = () => {
     setModle(!Modle);
   };
-  console.log(onclickid);
   useEffect(() => {
     setProjects(works);
   }, []);

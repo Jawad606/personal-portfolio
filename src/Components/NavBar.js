@@ -15,7 +15,7 @@ function NavBar(props) {
   let width = "";
   let black=''
   if ("home" !== props.home) {
-    name = "Emily Jones";
+    name = "Jawad Mirza";
     flex = "d-flex justify-content-md-end width-nav";
     width = "container";
     black='black';
@@ -24,13 +24,12 @@ function NavBar(props) {
 
   const toggle = () => {
     setisOpen(!isOpen);
-    console.log(isOpen);
   };
 
   return (
     <div className={`${black} container-flui`}>
     <div className={width}>
-      <Navbar dark bg-dark="true" expand="md">
+      <Navbar dark bg-dark="true"  expand="md" >
         <NavbarToggler className="button-toggle" onClick={toggle} />
         <NavbarBrand className="mr-md-auto header-title" href="/">
           {name}
@@ -58,11 +57,11 @@ function NavBar(props) {
                   Services
                 </NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink className="nav-link" to="/profolio">
                   Portfolio
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink className="nav-link" to="/contect">
                   Contect

@@ -118,6 +118,7 @@
 }
 .icon-size {
   font-size: 25px;
+   background-color: unset !important;
 }
 .test-body {
   background: rgba(255, 255, 255, 0.1);

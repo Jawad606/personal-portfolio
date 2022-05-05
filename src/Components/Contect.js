@@ -29,7 +29,6 @@ function RenderForm() {
   });
 
   const handleBlur = (field) => (evt) => {
-    console.log(field);
     settouched({
       touched: { ...touched, [field]: true },
     });
@@ -45,8 +44,6 @@ function RenderForm() {
       username: "",
       email: "",
     };
-
-    console.log(touched);
     if (touched.username && username.length < 3 && username.length > 0) {
       errors.username = "First Name should be >= 3 characters";
     } else if (touched.username && username.length > 10) {
@@ -181,26 +178,27 @@ function RenderContect() {
                     </div>
                     <div className="icon-social">
                       {" "}
+                      <a href="https://web.facebook.com/jawad.mirza.355" rel="noreferrer" target={'_blank'}>
                       <FontAwesomeIcon
                         className="icon-s me-1"
                         icon={faFacebook}
-                      />
-                      <FontAwesomeIcon
-                        className="icon-s mx-1"
-                        icon={faWhatsapp}
-                      />
+                      /></a>
+                      <a href="https://github.com/Jawad606" rel="noreferrer" target={'_blank'} >
                       <FontAwesomeIcon
                         className="icon-s mx-1"
                         icon={faGithub}
-                      />
+                      /></a>
+                      <a href="https://www.linkedin.com/in/jawad-mirza-208024207/" rel="noreferrer" target={'_blank'}>
                       <FontAwesomeIcon
                         className="icon-s mx-1"
                         icon={faLinkedin}
                       />
+                      </a>
+                      <a href="https://www.instagram.com/cod_x_dev/" rel="noreferrer" target={'_blank'}>
                       <FontAwesomeIcon
                         className="icon-s mx-1"
                         icon={faInstagram}
-                      />
+                      /></a>
                     </div>
                   </div>
                 </div>

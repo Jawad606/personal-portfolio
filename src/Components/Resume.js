@@ -13,50 +13,56 @@ function RenderResume() {
               <div>
                 <h4>Summary</h4>
                 <div className="body-rs position-relative">
-                  <h5>Alice Barkley</h5>
+                  <h5>MERN Application</h5>
                   <p>
-                    Innovative and deadline-driven Graphic Designer with 3+
+                  Innovative and deadline-driven Software Developer with 6
+                  months of experience in React js, Node js, Redux and RestApi.
+                  This website is developed for Comsats university sahiwal. This 
+                  Appliction is responsible for handling the inventory in university.
+                  
+
+                    {/* Innovative and deadline-driven Graphic Designer with 3+
                     years of experience designing and developing user-centered
                     digital/print marketing material from initial concept to
-                    final, polished deliverable.
+                    final, polished deliverable. */}
                   </p>
                   <ul>
-                    <li>Portland par 127,Orlando, FL</li>
-                    <li>(123) 456-7891</li>
-                    <li>alice.barkley@example.com</li>
+                    <li>Comsats Software House Sahiwal</li>
+                    <li>+92 321552584</li>
+                    <li>Soon Host</li>
                   </ul>
                 </div>
               </div>
               <div>
                 <h4>Education</h4>
                 <div className="body-rs position-relative">
-                  <h5>Master of Fine Arts & Graphic Design</h5>
+                  <h5>Intermediate with ICS</h5>
                   <h6>2017-2019</h6>
-                  <p>Rochester Institute of Technology, Rochester, NY</p>
+                  <p>The Prime Standerd College</p>
                   <p>
-                    Qui deserunt veniam. Et sed aliquam labore tempore sed
-                    quisquam iusto autem sit. Ea vero voluptatum qui ut
-                    dignissimos deleniti nerada porti sand markend
+                    I done my Intermediate with first division from Toba tek singh.
+                    I choise ICS because i want to join computer feild. I got handsome 
+                    knowledge about computer during this time. Which help in my higher Education.
                   </p>
                   <ul>
-                    <li>Portland par 127,Orlando, FL</li>
-                    <li>(123) 456-7891</li>
-                    <li>alice.barkley@example.com</li>
+                    <li>Toba Tek Singh, Pakistan</li>
+                    <li>(046) 2200536</li>
+                    <li>The Prime Standard College TPSC Toba Tek Singh - EduVision</li>
                   </ul>
                 </div>
                 <div className="body-rs position-relative">
-                  <h5>Master of Fine Arts & Graphic Design</h5>
-                  <h6>2017-2019</h6>
-                  <p>Rochester Institute of Technology, Rochester, NY</p>
+                  <h5>Software Engineering</h5>
+                  <h6>2019-Pre</h6>
+                  <p>Comsats Univesity Islamabad, Sahiwal Campus</p>
                   <p>
-                    Qui deserunt veniam. Et sed aliquam labore tempore sed
-                    quisquam iusto autem sit. Ea vero voluptatum qui ut
-                    dignissimos deleniti nerada porti sand markend
+                    I am currently Software Engneering student. I am in 6 <sup>th</sup> semester with 
+                     <span className="underline">3.27</span> CGPA. I am working on MERN Stack. I am also working
+                     with Comsats Software House.
                   </p>
                   <ul>
-                    <li>Portland par 127,Orlando, FL</li>
-                    <li>(123) 456-7891</li>
-                    <li>alice.barkley@example.com</li>
+                    <li>Sahiwal, Pakistan</li>
+                    <li>(040) 4305005</li>
+                    <li>https://sahiwal.comsats.edu.pk</li>
                   </ul>
                 </div>
               </div>
@@ -65,31 +71,31 @@ function RenderResume() {
               <div>
                 <h4>Professional Experience</h4>
                 <div className="body-rs position-relative">
-                  <h5>Senior graphic design specialist</h5>
-                  <h6>2017-2032</h6>
-                  <p>Experion, New York, NY</p>
+                  <h5>Software Developer & Software Engneering</h5>
+                  <h6>2017-2022</h6>
+                  <p>Pakistan</p>
                   <ul>
                     <li>
-                      Lead in the design, development, and implementation of the
-                      graphic, layout, and production communication materials
+                       I worked in Photoshop with 2+ year of experience. I have experience 
+                       of photo color grading and retouching.
                     </li>
                     <li>
-                      Delegate tasks to the 7 members of the design team and
-                      provide counsel on all aspects of the project.{" "}
+                      Vidoe editing is also one of my experience. I am runing a youtube channel 
+                      as well. I teach my viewer about tech.{" "}
                     </li>
                     <li>
-                      Supervise the assessment of all graphic materials in order
-                      to ensure quality and accuracy of the design
+                      I worked on the desktop application as a project. Its a management system
+                      for tailor. This application contains backup system and encryption of data.
                     </li>
                     <li>
-                      Supervise the assessment of all graphic materials in order
-                      to ensure quality and accuracy of the design
+                      Comsats University sahiwal invertory management system is developed by myself.
+                      I worked with react, node, redux, rest apis, mongodb, and Auth.
                     </li>
                   </ul>
                 </div>
               </div>
               <div>
-                <h4>Summary</h4>
+                {/* <h4>Summary</h4>
                 <div className="body-rs position-relative">
                   <h5>Graphic design specialist</h5>
                   <h6>2017-2032</h6>
@@ -112,7 +118,7 @@ function RenderResume() {
                       to ensure quality and accuracy of the design
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
