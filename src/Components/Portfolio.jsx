@@ -4,78 +4,22 @@ import "../style/Portfolio.css";
 import { works } from "./Gallery";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import "font-awesome/css/font-awesome.css";
-import { faPlus, faLink } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { FaEye, FaLink } from "react-icons/fa";
 const Gallery = () => {
   const [onclickid, setonclickid] = useState(null);
-  const [currentButton, setcurrentButton] = useState(0);
   const [Modle, setModle] = useState(false);
-  const [filter, setFilter] = useState("all");
   const [projects, setProjects] = useState([]);
-  const onButtonClicked = (id) => {
-    setcurrentButton(currentButton === id ? null : id);
-  };
+
   const toggle = () => {
     setModle(!Modle);
   };
   useEffect(() => {
     setProjects(works);
   }, []);
-  useEffect(() => {
-    setProjects([]);
-    const filtered = works.map((p) => ({
-      ...p,
-      filtered: p.catagory.includes(filter),
-    }));
-    setProjects(filtered);
-  }, [filter]);
+
   return (
     <div className="container p-4">
-      <div className="row">
-        <div className="portfolio__labels  d-flex justify-content-center">
-          <button
-            active={filter === "all"}
-            className={currentButton === 0 ? "blackButton" : "whiteButton"}
-            onClick={() => {
-              setFilter("all");
-              onButtonClicked(0);
-            }}
-          >
-            All
-          </button>
-          <button
-            active={filter === "card"}
-            className={currentButton === 1 ? "blackButton" : "whiteButton"}
-            onClick={() => {
-              setFilter("card");
-              onButtonClicked(1);
-            }}
-          >
-            App
-          </button>
-          <button
-            active={filter === "app"}
-            className={currentButton === 2 ? "blackButton" : "whiteButton"}
-            onClick={() => {
-              setFilter("app");
-              onButtonClicked(2);
-            }}
-          >
-            card
-          </button>
-          <button
-            active={filter === "web"}
-            className={currentButton === 3 ? "blackButton" : "whiteButton"}
-            onClick={() => {
-              setFilter("web");
-              onButtonClicked(3);
-            }}
-          >
-            web
-          </button>
-        </div>
-      </div>
-
       <div className="portfolio__container row">
         {projects.map((item) =>
           item.filtered === true ? (
@@ -90,9 +34,12 @@ const Gallery = () => {
                       setonclickid(item.id);
                     }}
                   >
-                    <FontAwesomeIcon icon={faPlus} />{" "}
+                    <FaEye className="fa-plus" />{" "}
                   </button>
-                  <FontAwesomeIcon icon={faLink} />
+                  <a href={item.url} target="_blank" rel="noreferrer">
+                    {" "}
+                    <FaLink className="fa-plus" />
+                  </a>
                 </div>
               </div>
             </div>

@@ -5,6 +5,8 @@
   background-color: #18d26e;
   padding: 5%;
   border-radius: 4px;
+  width: 7rem;
+  height: 7rem;
 }
 .icon-before::before {
   position: absolute;
@@ -25,13 +27,12 @@
   transition: all ease-in-out 0.3s;
   border-radius: 5px;
 }
- .box-ser:hover > .fa-football {
-    background: #ffffff;
-    color: #18d26e;
+.box-ser:hover > .fa-football {
+  background: #ffffff;
+  color: #18d26e;
 }
-.box-ser:hover{
-
-    background-color: #18d26e;
+.box-ser:hover {
+  background-color: #18d26e;
 }
 .box-ser h3 {
   color: #ffffff;

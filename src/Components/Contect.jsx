@@ -156,7 +156,7 @@ function RenderContect() {
                     </div>
                     <div>
                       {" "}
-                      <p>A108 Adam Street, New York, NY 535022</p>
+                      <p>Rajana, Toba Tek Singh, Punjab, Pakistan</p>
                     </div>
                   </div>
                 </div>

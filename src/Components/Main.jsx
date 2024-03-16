@@ -21,7 +21,7 @@ function Main() {
           <Route path="/home" component={() => <Home />} />
           <Route path="/about" component={() => <About />} />
           <Route path="/resume" component={() => <Resume />} />
-          <Route path="/services" component={() => <Services />} />
+          <Route path="/experties" component={() => <Services />} />
           <Route path="/profolio" component={() => <Portfolio />} />
           <Route path="/contect" component={() => <Contect />} />
           <Redirect to="/home" />

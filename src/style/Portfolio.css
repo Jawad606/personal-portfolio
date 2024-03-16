@@ -28,8 +28,22 @@
   border-radius: 4px;
   border: none;
 }
+.main{
+  max-width: 100%;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+}
 .image {
-  width: 100%;
+  width:400px;
+  height: max-content;
 }
 
 .image::before {
@@ -72,8 +86,8 @@
 .fa-plus,
 .fa-link {
   color: white;
-  font-size: 20px;
-  padding-inline: 5px;
+  font-size: 25px;
+  padding-inline: 2px;
 }
 
 .fa-plus:hover,
