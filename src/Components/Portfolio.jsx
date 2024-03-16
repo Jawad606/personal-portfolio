@@ -17,36 +17,31 @@ const Gallery = () => {
   useEffect(() => {
     setProjects(works);
   }, []);
-
   return (
     <div className="container p-4">
       <div className="portfolio__container row">
-        {projects.map((item) =>
-          item.filtered === true ? (
-            <div className="main col-md-4 p-3 position-relative" key={item.id}>
-              <img className="image" src={item.image} alt={item.id} />
-              <div className="image-hover p-3">
-                <h4>{item.name}</h4>
-                <div className="icon-inner">
-                  <button
-                    onClick={() => {
-                      setModle(!Modle);
-                      setonclickid(item.id);
-                    }}
-                  >
-                    <FaEye className="fa-plus" />{" "}
-                  </button>
-                  <a href={item.url} target="_blank" rel="noreferrer">
-                    {" "}
-                    <FaLink className="fa-plus" />
-                  </a>
-                </div>
+        {works.map((item) => (
+          <div className="main col-md-4 p-3 position-relative" key={item.id}>
+            <img className="image" src={item.image} alt={item.id} />
+            <div className="image-hover p-3">
+              <h4>{item.name}</h4>
+              <div className="icon-inner">
+                <button
+                  onClick={() => {
+                    setModle(!Modle);
+                    setonclickid(item.id);
+                  }}
+                >
+                  <FaEye className="fa-plus" />{" "}
+                </button>
+                <a href={item.url} target="_blank" rel="noreferrer">
+                  {" "}
+                  <FaLink className="fa-plus" />
+                </a>
               </div>
             </div>
-          ) : (
-            ""
-          )
-        )}
+          </div>
+        ))}
       </div>
 
       <div>
@@ -77,6 +72,7 @@ const Gallery = () => {
 function RenderGallery() {
   return (
     <>
+      asdfsdf
       <Gallery />
     </>
   );
@@ -86,7 +82,7 @@ function Portfolio() {
   return (
     <div className="e-header">
       <NavBar />
-      <div className="py-5 px-4  ">
+      <div className="py-5 px-4">
         <div className="about">
           <RenderGallery />
         </div>
