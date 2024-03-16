@@ -36,6 +36,21 @@ function RenderResume() {
               <div>
                 <h4>Education</h4>
                 <div className="body-rs position-relative">
+                  <h5>Software Engineering</h5>
+                  <h6>2019-2023</h6>
+                  <p>Comsats Univesity Islamabad, Sahiwal Campus</p>
+                  <p>
+                    I am currently Software Engneering student. I  completed my degree with 
+                     <span className="underline"> 3.41 </span> CGPA. I am working on MERN Stack. I am also working
+                     with Comsats Software House.
+                  </p>
+                  <ul>
+                    <li>Sahiwal, Pakistan</li>
+                    <li>(040) 4305005</li>
+                    <li>https://sahiwal.comsats.edu.pk</li>
+                  </ul>
+                </div>
+                <div className="body-rs position-relative">
                   <h5>Intermediate with ICS</h5>
                   <h6>2017-2019</h6>
                   <p>The Prime Standerd College</p>
@@ -50,26 +65,33 @@ function RenderResume() {
                     <li>The Prime Standard College TPSC Toba Tek Singh - EduVision</li>
                   </ul>
                 </div>
-                <div className="body-rs position-relative">
-                  <h5>Software Engineering</h5>
-                  <h6>2019-Pre</h6>
-                  <p>Comsats Univesity Islamabad, Sahiwal Campus</p>
-                  <p>
-                    I am currently Software Engneering student. I am in 6 <sup>th</sup> semester with 
-                     <span className="underline">3.27</span> CGPA. I am working on MERN Stack. I am also working
-                     with Comsats Software House.
-                  </p>
-                  <ul>
-                    <li>Sahiwal, Pakistan</li>
-                    <li>(040) 4305005</li>
-                    <li>https://sahiwal.comsats.edu.pk</li>
-                  </ul>
-                </div>
               </div>
             </div>
             <div className="col-md-6 res-body">
               <div>
                 <h4>Professional Experience</h4>
+                <div className="body-rs position-relative">
+                  <h5>Associate Software Engineer</h5>
+                  <h6>JUN 2023- PRE</h6>
+                  <p>Pakistan</p>
+                  <ul>
+                    <li>
+                       I worked as a Software Engineer with experience in Mern Stack and AI
+                    </li>
+                    <li>
+                      Develop SaaS application, dashboard, Shopify Apps
+                    </li>
+                    <li>
+                      I am working with following technologies Node, React, Next, Express, Nest, 
+                      Mongodb, MySql, PostGree, Tailwind, Material UI, Bootstrap, Redux, Redux toolkit
+                      Query
+                    </li>
+                    <li>
+                     From machine learning perspective django, numpy, pandas, matlibplot, tenserflow,
+                     ANN, CNN, RNN, 
+                    </li>
+                  </ul>
+                </div>
                 <div className="body-rs position-relative">
                   <h5>Software Developer & Software Engneering</h5>
                   <h6>2017-2022</h6>

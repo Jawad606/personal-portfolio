@@ -53,15 +53,15 @@ function NavBar(props) {
                 </NavLink>
               </NavItem>{" "}
               <NavItem>
-                <NavLink className="nav-link" to="/services">
-                  Services
+                <NavLink className="nav-link" to="/experties">
+                  Experties
                 </NavLink>
               </NavItem>
-              {/* <NavItem>
+              <NavItem>
                 <NavLink className="nav-link" to="/profolio">
                   Portfolio
                 </NavLink>
-              </NavItem> */}
+              </NavItem>
               <NavItem>
                 <NavLink className="nav-link" to="/contect">
                   Contect
