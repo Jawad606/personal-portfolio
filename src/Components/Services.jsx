@@ -22,7 +22,7 @@ function RenderService() {
               <div className="box-ser">
                 <FaReact
                   size={"40px"}
-                  className="fa-football icon-color icon-before"
+                  className="fa-service icon-color icon-before"
                 />
                 <h3>React JS</h3>
                 <p>
@@ -35,7 +35,7 @@ function RenderService() {
               <div className="box-ser">
                 <FaNodeJs
                   size={20}
-                  className="fa-football icon-color icon-before"
+                  className="fa-service icon-color icon-before"
                 />
                 <h3>Node JS</h3>
                 <p>
@@ -48,7 +48,7 @@ function RenderService() {
               <div className="box-ser">
                 <SiExpress
                   size={20}
-                  className="fa-football icon-color icon-before"
+                  className="fa-service icon-color icon-before"
                 />
                 <h3>Express JS</h3>
                 <p>
@@ -61,7 +61,7 @@ function RenderService() {
               <div className="box-ser">
                 <SiMongodb
                   size=""
-                  className="fa-football icon-color icon-before"
+                  className="fa-service icon-color icon-before"
                 />
                 <h3>MongoDB</h3>
                 <p>
@@ -74,7 +74,7 @@ function RenderService() {
               <div className="box-ser">
                 <SiRedux
                   size={20}
-                  className="fa-football icon-color icon-before"
+                  className="fa-service icon-color icon-before"
                 />
                 <h3>Redux</h3>
                 <p>
@@ -87,7 +87,7 @@ function RenderService() {
               <div className="box-ser">
                 <SiNextdotjs
                   size={20}
-                  className="fa-football icon-color icon-before"
+                  className="fa-service icon-color icon-before"
                 />
                 <h3>Next</h3>
                 <p>
@@ -100,7 +100,7 @@ function RenderService() {
               <div className="box-ser">
                 <SiNestjs
                   size={20}
-                  className="fa-football icon-color icon-before"
+                  className="fa-service icon-color icon-before"
                 />
                 <h3>Nest</h3>
                 <p>
@@ -113,7 +113,7 @@ function RenderService() {
               <div className="box-ser">
                 <SiPytorch
                   size={20}
-                  className="fa-football icon-color icon-before"
+                  className="fa-service icon-color icon-before"
                 />
                 <h3>PyTorch</h3>
                 <p>
