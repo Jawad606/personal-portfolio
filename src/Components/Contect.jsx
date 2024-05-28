@@ -138,8 +138,8 @@ function RenderContect() {
     <div className="container p-4">
       <div className="row">
         <div className="col-md-12">
-          <h6 className="aboutme">Contect</h6>
-          <h1 className="des">Contect Me</h1>
+          <h6 className="aboutme">Contact</h6>
+          <h1 className="des">Contact Me</h1>
           <div className="row size d-flex justify-content-md-between">
             <div className="col-md-6   col-12  my-2">
               <div className="box-con">
@@ -156,7 +156,7 @@ function RenderContect() {
                     </div>
                     <div>
                       {" "}
-                      <p>Rajana, Toba Tek Singh, Punjab, Pakistan</p>
+                      <p>Lahore, Punjab, Pakistan</p>
                     </div>
                   </div>
                 </div>
@@ -177,76 +177,94 @@ function RenderContect() {
                     </div>
                     <div className="icon-social">
                       {" "}
-                      <a href="https://web.facebook.com/jawad.mirza.355" rel="noreferrer" target={'_blank'}>
-                      <FontAwesomeIcon
-                        className="icon-s me-1"
-                        icon={faFacebook}
-                      /></a>
-                      <a href="https://github.com/Jawad606" rel="noreferrer" target={'_blank'} >
-                      <FontAwesomeIcon
-                        className="icon-s mx-1"
-                        icon={faGithub}
-                      /></a>
-                      <a href="https://www.linkedin.com/in/jawad-mirza-208024207/" rel="noreferrer" target={'_blank'}>
-                      <FontAwesomeIcon
-                        className="icon-s mx-1"
-                        icon={faLinkedin}
-                      />
+                      <a
+                        href="https://web.facebook.com/jawad.mirza.355"
+                        rel="noreferrer"
+                        target={"_blank"}
+                      >
+                        <FontAwesomeIcon
+                          className="icon-s me-1"
+                          icon={faFacebook}
+                        />
                       </a>
-                      <a href="https://www.instagram.com/cod_x_dev/" rel="noreferrer" target={'_blank'}>
-                      <FontAwesomeIcon
-                        className="icon-s mx-1"
-                        icon={faInstagram}
-                      /></a>
+                      <a
+                        href="https://github.com/Jawad606"
+                        rel="noreferrer"
+                        target={"_blank"}
+                      >
+                        <FontAwesomeIcon
+                          className="icon-s mx-1"
+                          icon={faGithub}
+                        />
+                      </a>
+                      <a
+                        href="https://www.linkedin.com/in/jawad-mirza-208024207/"
+                        rel="noreferrer"
+                        target={"_blank"}
+                      >
+                        <FontAwesomeIcon
+                          className="icon-s mx-1"
+                          icon={faLinkedin}
+                        />
+                      </a>
+                      <a
+                        href="https://www.instagram.com/cod_x_dev/"
+                        rel="noreferrer"
+                        target={"_blank"}
+                      >
+                        <FontAwesomeIcon
+                          className="icon-s mx-1"
+                          icon={faInstagram}
+                        />
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-12  my-2 ">
-            <div className="box-con">
-              {" "}
-              <div className="row ">
-                <div className="col-md-2 d-flex justify-content-md-end justify-content-center">
-                  <div className="icon-con d-flex justify-content-center align-items-center">
-                    <FontAwesomeIcon size="1x" icon={faMessage} />
+              <div className="box-con">
+                {" "}
+                <div className="row ">
+                  <div className="col-md-2 d-flex justify-content-md-end justify-content-center">
+                    <div className="icon-con d-flex justify-content-center align-items-center">
+                      <FontAwesomeIcon size="1x" icon={faMessage} />
+                    </div>
+                  </div>
+                  <div className="col-md-10 text-md-start text-center my-1">
+                    <div>
+                      <h4>Email Me</h4>
+                    </div>
+                    <div>
+                      {" "}
+                      <p>jawadmirza606@gmail.com</p>
+                    </div>
                   </div>
                 </div>
-                <div className="col-md-10 text-md-start text-center my-1">
-                  <div>
-                    <h4>Email Me</h4>
+              </div>
+            </div>
+            <div className="col-md-6 col-12  my-2">
+              <div className="box-con">
+                {" "}
+                <div className="row ">
+                  <div className="col-md-2 d-flex justify-content-md-end justify-content-center">
+                    <div className="icon-con d-flex justify-content-center align-items-center">
+                      <FontAwesomeIcon size="1x" icon={faPhone} />
+                    </div>
                   </div>
-                  <div>
-                    {" "}
-                    <p>jawadmirza606@gmail.com</p>
+                  <div className="col-md-10 text-md-start text-center my-1">
+                    <div>
+                      <h4>Call Me</h4>
+                    </div>
+                    <div>
+                      {" "}
+                      <p>+92 3117157002</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-12  my-2">
-            <div className="box-con">
-              {" "}
-              <div className="row ">
-                <div className="col-md-2 d-flex justify-content-md-end justify-content-center">
-                  <div className="icon-con d-flex justify-content-center align-items-center">
-                    <FontAwesomeIcon size="1x" icon={faPhone} />
-                  </div>
-                </div>
-                <div className="col-md-10 text-md-start text-center my-1">
-                  <div>
-                    <h4>Call Me</h4>
-                  </div>
-                  <div>
-                    {" "}
-                    <p>+92 3117157002</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-          
         </div>
       </div>
     </div>

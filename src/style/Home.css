@@ -11,12 +11,21 @@ body{
     background: url('/public/assets/images/bg.jpg') top right no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
  
 }
 .heigt .row{
     height: 100vh;
 }
 
+.bg-image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 900px;
+}
 .header-color{
     color: var(--Heading);
 }

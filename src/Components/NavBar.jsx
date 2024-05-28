@@ -64,7 +64,7 @@ function NavBar(props) {
               </NavItem>
               <NavItem>
                 <NavLink className="nav-link" to="/contect">
-                  Contect
+                  Contact
                 </NavLink>
               </NavItem>
             </Nav>

@@ -75,12 +75,12 @@ function RenderaboutMe() {
                   <div className="info">
                     <FontAwesomeIcon className="icon-ri" icon={faAngleRight} />
                     <strong className="strong">Degree:</strong>
-                    <span className="span">Undergraduate</span>
+                    <span className="span">Graduate</span>
                   </div>
                   <div className="info">
                     <FontAwesomeIcon className="icon-ri" icon={faAngleRight} />
                     <strong className="strong">Email:</strong>
-                    <span className="span">jawadmirza606</span>
+                    <span className="span">jawadmirza606@gmail.com</span>
                   </div>
                   <div className="info">
                     <FontAwesomeIcon className="icon-ri" icon={faAngleRight} />
@@ -510,7 +510,7 @@ function About() {
             <Rendercounter />
             <RenderSkill />
             <Renderinterest />
-            <RenderTest />
+            {/* <RenderTest /> */}
           </div>
         </div>
       </div>
