@@ -72,7 +72,14 @@ const Gallery = () => {
 function RenderGallery() {
   return (
     <>
-      asdfsdf
+      <div className="container p-4">
+        <div className="row">
+          <div className="col-md-12">
+            <h6 className="aboutme">Portfolio</h6>
+            <h1 className="des"> My Recent Projects</h1>
+          </div>
+        </div>
+      </div>
       <Gallery />
     </>
   );
