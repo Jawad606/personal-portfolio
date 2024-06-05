@@ -27,7 +27,7 @@ function NavBar(props) {
   };
 
   return (
-    <div className={`${black} container-flui`}>
+    <div className={`${black} container-fluid`}>
     <div className={width}>
       <Navbar dark bg-dark="true"  expand="md" >
         <NavbarToggler className="button-toggle" onClick={toggle} />

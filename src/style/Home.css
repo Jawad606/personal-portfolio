@@ -1,71 +1,87 @@
-*{
- --Heading:#FFFFFF;
- --Text:#CFCFCF;
- --Highlight:#18D26E
+* {
+  --Heading: #ffffff;
+  --Text: #cfcfcf;
+  --Highlight: #18d26e;
 }
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
-.e-header{
-    transition: ease-in-out 0.3s;
-    background: url('/public/assets/images/bg.jpg') top right no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
- 
+.e-header {
+  transition: ease-in-out 0.3s;
+  background: url("/public/assets/images/bg.jpg") top right no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow-y: hidden;
 }
-.heigt .row{
-    height: 100vh;
+.heigt .row {
+  height: 100vh;
 }
 
-.bg-image{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    width: 900px;
+.bg-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  width: 900px;
 }
-.header-color{
-    color: var(--Heading);
-}
-.text-color{
-    color: var(--Text);
-}
-.hlight-color{
-    color:var(--Highlight)
-}
-.underline{
+@media only screen and (max-width: 519px) {
+    .bg-image {
+      position: absolute;
+      top: 0;
+      right: -450px;
+      bottom: 0;
+      z-index: 0;
+      opacity: 0.8;
+      width: 900px;  /* Adjust the width as needed for mobile devices */
+    }
+  }
 
-    color: #FFFFFF;
+.header-color {
+  color: var(--Heading);
 }
-.header-font{
-    font-size: 3.5rem;
-    font-weight: bold;
-    line-height: 1;
+.text-color {
+  color: var(--Text);
 }
-.title-des{
-    font-size: 1.5rem;
+.hlight-color {
+  color: var(--Highlight);
 }
-.icon{
-    color:#fff;
-    font-size:28px;
+.underline {
+  color: #ffffff;
+}
+.header-font {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1;
+}
+.title-des {
+  font-size: 1.5rem;
+}
+.icon {
+  color: #fff;
+  font-size: 28px;
 }
 .animation {
-   
-    animation: mover 0.5s ease-in forwards   ;
+  animation: mover 0.5s ease-in forwards;
+}
+@keyframes mover {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
   }
-  @keyframes mover {
-    0% { transform: translateY(20px); opacity: 0;}
-    100% { transform: translateY(0); opacity: 1;}
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
+}
 
 /* .navbar-dark .navbar-nav .nav-link:hover{
     color: #fff;
     transition: all 0.3s ease-in-out 0s;
     border-bottom: 2px solid #18d26e;
 } */
-.underline{
-    padding-bottom: 4px;
-    border-bottom: 2px solid #18d26e;
+.underline {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #18d26e;
 }
